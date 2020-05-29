@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    tools:context=".Food_request_status">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@color/startblue">
+
+        <ImageView
+            android:id="@+id/res_image_status"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/resname_foodrequeststatus"
+            android:text="Restaurant Name"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_toRightOf="@+id/res_image_status"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/location_res"
+            android:text="Location"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:layout_toRightOf="@+id/res_image_status"
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fooddesc"
+            android:text="Food Description"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:layout_below="@+id/res_image_status"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fooddescription"
+            android:text="Description"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:layout_toRightOf="@+id/fooddesc"
+            android:layout_below="@+id/res_image_status"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="5dp"/>
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/accept"
+            android:layout_below="@+id/fooddesc"
+            android:src="@drawable/accept"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/roundbutton"
+            />
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/decline"
+            android:layout_below="@+id/fooddesc"
+            android:layout_toRightOf="@+id/accept"
+            android:src="@drawable/decline"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/roundbutton"
+            />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

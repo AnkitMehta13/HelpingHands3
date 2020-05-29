@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Restaurant.Res_home">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textSize="35dp"
+        android:textColor="#000000"
+        android:text="Place Order"/>
+
+
+    <TextView
+        android:id="@+id/serial1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="1."
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/item1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_toRightOf="@+id/serial1"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:hint="Item Name"/>
+
+    <EditText
+        android:id="@+id/quantity1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_toRightOf="@+id/item1"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:hint="Qty(kg/ltr)"/>
+
+
+    <TextView
+        android:id="@+id/serial2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/serial1"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:text="2."
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/item2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item1"
+        android:layout_toRightOf="@+id/serial2"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:hint="Item Name"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/quantity2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quantity1"
+        android:layout_toRightOf="@+id/item2"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:hint="Qty(kg/ltr)"/>
+
+
+    <TextView
+        android:id="@+id/serial3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/serial2"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:text="3."
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/item3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item2"
+        android:layout_toRightOf="@+id/serial3"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:hint="Item Name"/>
+
+    <EditText
+        android:id="@+id/quantity3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quantity2"
+        android:layout_toRightOf="@+id/item3"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:hint="Qty(kg/ltr)"/>
+
+
+    <TextView
+        android:id="@+id/serial4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/serial3"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:text="4."
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/item4"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item3"
+        android:layout_toRightOf="@+id/serial4"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:hint="Item Name"/>
+
+    <EditText
+        android:id="@+id/quantity4"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quantity3"
+        android:layout_toRightOf="@+id/item4"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:hint="Qty(kg/ltr)"/>
+
+
+    <TextView
+        android:id="@+id/serial5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/serial4"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:text="5."
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/item5"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item4"
+        android:layout_toRightOf="@+id/serial5"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:hint="Item Name"/>
+
+    <EditText
+        android:id="@+id/quantity5"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quantity4"
+        android:layout_toRightOf="@+id/item5"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:hint="Qty(kg/ltr)"/>
+
+    <Button
+        android:id="@+id/place_order"
+        android:layout_below="@+id/item5"
+        android:layout_centerHorizontal="true"
+        android:layout_width="165dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="55dp"
+        android:text="Place Order"
+        android:background="@drawable/button"/>
+
+
+</RelativeLayout>

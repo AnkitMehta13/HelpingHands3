@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.helpinghands">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:hardwareAccelerated="true"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".chooser" />
+        <activity android:name=".RecentVol" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".ChangePassword" />
+        <activity android:name=".Food_request_status" />
+        <activity android:name=".Restaurant.ResChangePassword" />
+        <activity android:name=".Restaurant.Res_Feedback" />
+        <activity android:name=".Restaurant.Res_forgotpasswprd" />
+        <activity android:name=".Restaurant.Res_home" />
+        <activity android:name=".Restaurant.ResEditProfile" />
+        <activity android:name=".Restaurant.History" />
+        <activity
+            android:name=".Restaurant.Main3Activity"
+            android:label="@string/title_activity_main3"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar" />
+        <activity android:name=".EditProfile" />
+        <activity android:name=".ForgotPassword" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Signup" />
+        <activity android:name=".Restaurant.Res_Signup" />
+        <activity android:name=".Login" />
+        <activity android:name=".Restaurant.Res_login"/>
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
